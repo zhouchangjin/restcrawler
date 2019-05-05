@@ -28,7 +28,7 @@ import com.harmonywisdom.crawler.httputil.HtmlFetcher;
 
 @Path("/book")
 @Produces(MediaType.APPLICATION_JSON)
-public class BookResource extends BaseResource{
+public class BookResource extends BaseResource{ 
 	
 	@PageCrawlerDBSetting(value = "ISBN_DD")
 	public DBCrawler dangdangSearchCrawler;
